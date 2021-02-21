@@ -12,6 +12,7 @@ public class SadObject extends MoodyObject {
         System.out.println(" 'wah' 'boo hoo' 'weep' 'sob' 'weep' ");
     }
 
+    @Override
     public String toString(){
         return "Subject cries a lot";
     }
