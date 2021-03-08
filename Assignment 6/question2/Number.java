@@ -14,10 +14,13 @@ public class Number {
             System.out.println("Quotient : " + x + "/" + y + " = " + x / y);
         }
         catch (NumberFormatException n){
-            System.out.println("Number Format Exception : Enter a valid number of type int");
+            System.out.println("Exception : Enter a valid input of type integer");
         }
         catch (ArithmeticException a){
-            System.out.println("Arithmetic Exception : Cannot divide by 0");
+            System.out.println("Exception : Division by zero error");
+        }
+        catch (Exception e){
+            System.out.println("Exception : " + e.getMessage());
         }
     }
 
